@@ -1,13 +1,61 @@
 /* Add a background color to the header element */
+header {
+  background: linear-gradient(
+    90deg,
+    rgba(63, 81, 181, 1) 0%,
+    rgba(0, 188, 212, 1) 50%,
+    rgba(238, 130, 238, 1) 100%
+  );
+  color: white;
+  font-size: 1.5rem;
+}
 
 /* Add a fun background color to the main element */
-
+main {
+  background: linear-gradient(
+    90deg,
+    rgba(63, 81, 181, 1) 0%,
+    rgba(0, 188, 212, 1) 50%,
+    rgba(238, 130, 238, 1) 100%
+  );
+}
 /* Align the h1 containing your name in the center of the header*/
+h1 {
+  text-align: center;
+}
 
 /* Make your p tag a different color and italic */
+p {
+  color: white;
+  font-style: italic;
+  font-size: 1.5rem;
+  margin: 2rem;
+}
 
 /* Put a border around your image */
+img {
+  border: 0.15rem solid black;
+  border-radius: 5rem;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
 
 /* Change the font-family of your list */
+li {
+  color: white;
+  list-style-type: square;
+  margin: 0.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0.5rem;
+}
 
 /* Add a background color to the footer element */
+footer {
+  background: linear-gradient(
+    90deg,
+    rgba(63, 81, 181, 1) 0%,
+    rgba(0, 188, 212, 1) 50%,
+    rgba(238, 130, 238, 1) 100%
+  );
+}
